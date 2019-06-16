@@ -25,7 +25,7 @@ node{
 	
   stage('Publish Artificats to UCD'){
    step([$class: 'UCDeployPublisher',
-        siteName: 'ucd-server',
+        siteName: 'UCD 7.0',
         component: [
             $class: 'com.urbancode.jenkins.plugins.ucdeploy.VersionHelper$VersionBlock',
             componentName: 'AltoroComponent',
