@@ -69,5 +69,6 @@ node{
 			 deployReqProps: '', 
 			 deployVersions: "AltoroComponent:1.${BUILD_NUMBER}"], 
 		siteName: 'ucd-server'])
+	  //test
  }
 }
