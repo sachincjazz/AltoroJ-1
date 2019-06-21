@@ -52,7 +52,7 @@ node{
 		//println it
 		//}
 	echo "(*****)"
-	  echo "Demo1234 ${AltoroComponent_VersionId}"
+	  //echo "Demo1234 ${AltoroComponent_VersionId}"
 	  def newComponentVersionId = "${AltoroComponent_VersionId}"
 	  echo "git commit ${GIT_COMMIT}"
 	  step($class: 'UploadBuild', tenantId: "5ade13625558f2c6688d15ce", revision: "${GIT_COMMIT}", appName: "Altoro", requestor: "admin", id: "${newComponentVersionId}" )
